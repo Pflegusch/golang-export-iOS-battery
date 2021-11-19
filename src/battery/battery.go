@@ -10,7 +10,7 @@ import (
 )
 
 func logData(data string) {
-	f, err := os.OpenFile("../../data.txt", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0755)
+	f, err := os.OpenFile("static/data.txt", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0755)
 	if err != nil {
 		log.Fatalln(err)
 	}

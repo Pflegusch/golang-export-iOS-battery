@@ -5,4 +5,4 @@ A program written in C that extracts current battery information from a jailbrok
 Install the dependencies with ``go get github.com/melbahja/goph``
 
 # Build and Run
-Build the webserver with ``go build webserver`` and the program with ``go build battery``. Then run the webserver with ``./webserver`` and the programm with ``./battery <ip-addr> <path-to-private-sshkey>``
+Build the webserver with ``go build webserver`` and the program with ``go build battery``. Then run the webserver with ``./webserver`` and the programm with ``./battery <ip-addr> <path-to-private-sshkey>``. Make sure to have a directory called ``static`` in the battery binary root with a file named ``data.txt`` in it. 
